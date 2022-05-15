@@ -11,7 +11,7 @@ function DetailsCard({ data, role, token }) {
   return (
     <div>
       <h5>Detalhe do Pedido</h5>
-      <div className="card card-body bg-primary mb-3">
+      <div className="card card-body bg-primary w-75 d-inline-block mb-3">
         <DetailsHeader data={ data } role={ role } token={ token } />
         <div className="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
           <p>Item</p>

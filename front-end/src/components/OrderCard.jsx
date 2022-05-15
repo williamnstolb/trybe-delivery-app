@@ -12,7 +12,7 @@ function OrderCard(props) {
 
   return (
     <a
-      className="card card-body bg-primary mb-3"
+      className="card card-body bg-primary w-25 h-25 d-inline-block m-3"
       href={ `${PATH}/${id}` }
       data-testid={ `${role}_products__element-card-title-${id}` }
     >
